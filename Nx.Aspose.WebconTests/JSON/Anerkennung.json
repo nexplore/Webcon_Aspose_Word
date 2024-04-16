@@ -1,0 +1,21 @@
+{
+  "Titel_De": "VKF Anerkennung",
+  "Nummer": "32865",
+  "UnterGruppe": {
+    "Nummer": "242",
+    "Titel_De": "Brandschutztüren mit Verglasung"
+  },
+  "Inhaber": {
+    "Name": "FeuerschutzTeam AG",
+    "Strasse": "Kirchstrasse 3",
+    "PLZ": "5505",
+    "Ort": "Brunegg",
+    "Land": "Schweiz"
+  },
+  "Produkt": {
+    "Name_De": "FST Schiebetüre Manuell-Automatik RA Türe",
+    "Beschreibung_De": ""
+  },
+  "Gueltigvon": "2023-12-31 0:00:00 am",
+  "Gueltigbis": "2028-12-31 0:00:00 am"
+}

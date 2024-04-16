@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="JSON\Anerkennung.json" />
+    <None Remove="JSON\json1.json" />
+    <None Remove="Templates\Anerkennung_BS-Produkt_de.docx" />
+    <None Remove="Templates\Template.docx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="JSON\Anerkennung.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="JSON\json1.json" />
+    <EmbeddedResource Include="Templates\Anerkennung_BS-Produkt_de.docx" />
+    <EmbeddedResource Include="Templates\Template.docx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Result\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nx.Aspose.Webcon\Nx.Aspose.Webcon.csproj" />
+  </ItemGroup>
+
+</Project>
