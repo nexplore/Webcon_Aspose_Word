@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Nx.Aspose.Webcon/bin/Debug/netstandard2.0
+/Nx.Aspose.Webcon/obj
+/.vs/Nx.Aspose/DesignTimeBuild
+/Nx.Aspose.WebconTests/bin/Debug/net6.0
+/Nx.Aspose.WebconTests/obj
+/.vs/Nx.Aspose
