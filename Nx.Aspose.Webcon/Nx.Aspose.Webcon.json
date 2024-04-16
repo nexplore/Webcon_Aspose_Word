@@ -1,0 +1,15 @@
+{
+  "extensions": [
+    {
+      "guid": "cf80df9a-7816-4894-ba92-fe3a85c874d7",
+      "name": "Report Builder",
+      "description": "",
+      "assembly": "Nx.Aspose.Webcon",
+      "class": "Nx.Aspose.Webcon.CustomActions.ReportBuilder",
+      "type": "CustomAction"
+    }
+  ],
+  "dependencies": [
+    "Nx.Aspose.Webcon"
+  ]
+}
